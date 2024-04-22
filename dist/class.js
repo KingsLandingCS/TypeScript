@@ -30,9 +30,9 @@ class Employee {
     }
     login() {
         return {
-            name: 'John',
+            name: "John",
             id: 1,
-            email: '',
+            email: "",
         };
     }
     getNameWIthAddress() {
@@ -44,7 +44,7 @@ let john = new Employee(1, "John", {
     street: "ABC",
     city: "Bangalore",
     state: "Karnataka",
-    pin: "123456"
+    pin: "123456",
 });
 john.empId = 100;
 console.log(john.empId);
